@@ -11,7 +11,7 @@ namespace ExamplesPatterns.AbstractFactory.Tables
         
         public override void PrintInfo()
         {
-            Console.WriteLine($"I'am SQLite table, {_tableName}" +
+            Console.WriteLine($"I'm SQLite table, {_tableName}" +
                 $"\nMy columns:");
             foreach(string column in _columnNames)
             {

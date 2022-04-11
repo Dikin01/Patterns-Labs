@@ -14,7 +14,7 @@ namespace ExamplesPatterns.AbstractFactory.Tables
 
         public override void PrintInfo()
         {
-            Console.WriteLine($"I'am MS SQL Server table," +
+            Console.WriteLine($"I'm MS SQL Server table," +
                 $" {_tableName}," +
                 $" and my owner is {Owner}" +
                 $"\nMy columns:");

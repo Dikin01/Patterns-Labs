@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExamplesPatterns.AbstractFactory.Databases.AbsractDatabase" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Databases\AbsractDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Databases.SqliteDatabase">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Databases\SqliteDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Databases.SqlServerDatabase">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Databases\SqlServerDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Queries.AbstractQuery" Collapsed="true">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Queries\AbstractQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Queries.SqliteQuery" Collapsed="true">
+    <Position X="9.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Queries\SqliteQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Queries.SqlServerQuery" Collapsed="true">
+    <Position X="14.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Queries\SqlServerQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Tables.AbstractTable" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>AbstractFactory\Tables\AbstractTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Tables.SqliteTable" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Tables\SqliteTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamplesPatterns.AbstractFactory.Tables.SqlServerTable" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory\Tables\SqlServerTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
