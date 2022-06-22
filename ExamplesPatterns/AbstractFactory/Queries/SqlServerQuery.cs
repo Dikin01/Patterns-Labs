@@ -3,6 +3,8 @@ using System.Threading;
 
 namespace ExamplesPatterns.AbstractFactory.Queries
 {
+    // Функции для БД типа SqlServer - конкретный продукт для SqlServerLoader
+    // Реализуем и расширим AbstractQuery, сохраняя время выполнения функции
     public class SqlServerQuery : AbstractQuery
     {
         private int _executionTime;

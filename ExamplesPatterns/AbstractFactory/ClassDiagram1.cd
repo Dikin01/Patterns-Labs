@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ExamplesPatterns.AbstractFactory.Databases.AbsractDatabase" Collapsed="true">
-    <Position X="12.25" Y="2.25" Width="1.5" />
+  <Class Name="ExamplesPatterns.AbstractFactory.Databases.AbsractDatabaseLoader" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAA=</HashCode>
-      <FileName>AbstractFactory\Databases\AbsractDatabase.cs</FileName>
+      <FileName>AbstractFactory\Databases\AbsracDatabaseLoader.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamplesPatterns.AbstractFactory.Databases.SqliteDatabase">
+  <Class Name="ExamplesPatterns.AbstractFactory.Databases.SqliteLoader">
     <Position X="11" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>AbstractFactory\Databases\SqliteDatabase.cs</FileName>
+      <FileName>AbstractFactory\Databases\SqliteLoader.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ExamplesPatterns.AbstractFactory.Databases.SqlServerDatabase">
+  <Class Name="ExamplesPatterns.AbstractFactory.Databases.SqlServerLoader">
     <Position X="13.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>AbstractFactory\Databases\SqlServerDatabase.cs</FileName>
+      <FileName>AbstractFactory\Databases\SqlServerLoader.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ExamplesPatterns.AbstractFactory.Queries.AbstractQuery" Collapsed="true">

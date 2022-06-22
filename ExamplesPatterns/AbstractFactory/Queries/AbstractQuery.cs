@@ -1,5 +1,6 @@
 ﻿namespace ExamplesPatterns.AbstractFactory.Queries
 {
+    // Абстрактная хранимая функция - продукт фабрики AbsracDatabaseLoader
     public abstract class AbstractQuery
     {
         protected string _name;

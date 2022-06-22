@@ -2,6 +2,8 @@
 
 namespace ExamplesPatterns.AbstractFactory.Tables
 {
+    // Таблицы для БД типа SqlServer - конкретный продукт для SqlServerLoader
+    // Реализуем и расширим AbstractTable, запоминая владельца таблицы
     public class SqlServerTable : AbstractTable
     {
         public readonly string Owner;

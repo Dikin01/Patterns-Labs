@@ -3,7 +3,6 @@ C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPa
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.json
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.dev.json
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.dll
-C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ref\ExamplesPatterns.dll
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.pdb
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,4 @@ C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPa
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ref\ExamplesPatterns.dll
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.pdb
 C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.genruntimeconfig.cache
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\refint\ExamplesPatterns.dll

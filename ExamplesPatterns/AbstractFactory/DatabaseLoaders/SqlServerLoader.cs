@@ -4,15 +4,19 @@ using System.Collections.Generic;
 
 namespace ExamplesPatterns.AbstractFactory.Databases
 {
-    public class SqlServerDatabase : AbsractDatabase
+    // Конкретная фабрика для получения данных из SqlServer
+    // Выполним те же шаги реализации, что и в SqliteLoader
+    public class SqlServerLoader : AbsractDatabaseLoader
     {
-        public SqlServerDatabase(string connectionString)
+        public SqlServerLoader(string connectionString)
             : base(connectionString) { }
+
 
         public override List<AbstractQuery> GetQueries()
         {
             List<AbstractQuery> queries = new List<AbstractQuery>();
-
+            
+            // В этой реализации будем добавлять функции типа SqlServerQuery
             queries.Add(new SqlServerQuery("Get animals",
                 "SELECT * FROM Animals"));
             queries.Add(new SqlServerQuery("Get animal with Id = 25",
@@ -22,7 +26,6 @@ namespace ExamplesPatterns.AbstractFactory.Databases
                 "SELECT * FROM Animals" +
                 "WHERE type = 'bunny'"));
 
-
             return queries;
         }
 
@@ -30,6 +33,7 @@ namespace ExamplesPatterns.AbstractFactory.Databases
         {
             List<AbstractTable> tables = new List<AbstractTable>();
 
+            // Также добавим таблицу типа SqlServerTable
             tables.Add(new SqlServerTable("Animals",
                 new string[] { "Id", "Name", "Type" }, 8, "Ivan")
             );

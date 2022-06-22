@@ -1,5 +1,6 @@
 ﻿namespace ExamplesPatterns.AbstractFactory.Tables
 {
+    // Абстрактная таблица - ещё один продукт фабрики AbsracDatabaseLoader
     public abstract class AbstractTable
     {
         protected string _tableName;
