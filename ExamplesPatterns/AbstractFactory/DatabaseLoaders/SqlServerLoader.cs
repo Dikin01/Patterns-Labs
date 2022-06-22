@@ -6,7 +6,7 @@ namespace ExamplesPatterns.AbstractFactory.Databases
 {
     // Конкретная фабрика для получения данных из SqlServer
     // Выполним те же шаги реализации, что и в SqliteLoader
-    public class SqlServerLoader : AbsractDatabaseLoader
+    public class SqlServerLoader : AbstractDatabaseLoader
     {
         public SqlServerLoader(string connectionString)
             : base(connectionString) { }

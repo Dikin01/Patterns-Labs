@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Patterns-Labs\\ExamplesPatterns\\ExamplesPatterns.csproj": {}
+    "C:\\Users\\kondi\\Desktop\\Паттерны Методичка\\ExamplesPatterns\\ExamplesPatterns.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Patterns-Labs\\ExamplesPatterns\\ExamplesPatterns.csproj": {
+    "C:\\Users\\kondi\\Desktop\\Паттерны Методичка\\ExamplesPatterns\\ExamplesPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Patterns-Labs\\ExamplesPatterns\\ExamplesPatterns.csproj",
+        "projectUniqueName": "C:\\Users\\kondi\\Desktop\\Паттерны Методичка\\ExamplesPatterns\\ExamplesPatterns.csproj",
         "projectName": "ExamplesPatterns",
-        "projectPath": "C:\\Users\\User\\Desktop\\Patterns-Labs\\ExamplesPatterns\\ExamplesPatterns.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Patterns-Labs\\ExamplesPatterns\\obj\\",
+        "projectPath": "C:\\Users\\kondi\\Desktop\\Паттерны Методичка\\ExamplesPatterns\\ExamplesPatterns.csproj",
+        "packagesPath": "C:\\Users\\kondi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kondi\\Desktop\\Паттерны Методичка\\ExamplesPatterns\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kondi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -55,12 +55,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.15, 5.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

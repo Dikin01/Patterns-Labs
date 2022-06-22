@@ -13,13 +13,13 @@ namespace ExamplesPatterns.AbstractFactory
         {
             // Теперь проверим, что сделали
             // Объявим наши абстрактные объекты и строку подключения к БД
-            AbsractDatabaseLoader db;
+            AbstractDatabaseLoader db;
             List<AbstractTable> tables;
             List<AbstractQuery> queries;
             string connectionString;
 
             // Создадим подключение для Sqlite и посмотрим содержимое такой БД
-            connectionString = "Data Source=Another.db";
+            connectionString = "Data Source=foobar.db";
             db = new SqliteLoader(connectionString);
             tables = db.GetTables();
             queries = db.GetQueries();

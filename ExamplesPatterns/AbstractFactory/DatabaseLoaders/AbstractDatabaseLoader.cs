@@ -6,11 +6,11 @@ using System.Collections.Generic;
 namespace ExamplesPatterns.AbstractFactory.Databases
 {
     // Наша абстрактная фабрика для работы с разными типами БД 
-    public abstract class AbsractDatabaseLoader
+    public abstract class AbstractDatabaseLoader
     {
         // Строка для подключения к БД
         public readonly string _connectionString;
-        public AbsractDatabaseLoader(string connectionString)
+        public AbstractDatabaseLoader(string connectionString)
         {
             _connectionString = connectionString;
             Console.WriteLine($"Conneсtion to {_connectionString}");

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sHOOAyr1aKxeT8iBRhusueqlk0gp1/TKX3IIRTdexxyppOJfyRwlw9agetZYBj+9ymBblHzPDW/9273dvKT03Q==",
+  "dgSpecHash": "a2ApnZjUITHen3a8P+8AYQNZofNhRMUfwHMup9JDV5xPJ+waOhQD3mP2wXHG/vxM8/dcufNPr59VrRXKzCuz0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Patterns-Labs\\ExamplesPatterns\\ExamplesPatterns.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\kondi\\Desktop\\Паттерны Методичка\\ExamplesPatterns\\ExamplesPatterns.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kondi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

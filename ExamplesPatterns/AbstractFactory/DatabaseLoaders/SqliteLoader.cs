@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace ExamplesPatterns.AbstractFactory.Databases
 {
     // Конкретная фабрика для получения данных из Sqlite
-    public class SqliteLoader : AbsractDatabaseLoader
+    public class SqliteLoader : AbstractDatabaseLoader
     {
         public SqliteLoader(string connectionString)
             : base(connectionString) { }
