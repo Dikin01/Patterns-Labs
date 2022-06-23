@@ -1,5 +1,6 @@
-﻿using ExamplesPatterns.AbstractFactory;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using ExamplesPatterns.AbstractFactory;
+using ExamplesPatterns.Singleton;
 
 namespace ExamplesPatterns
 {
@@ -9,7 +10,8 @@ namespace ExamplesPatterns
         {
             List<ITestable> testsPatterns = new List<ITestable>()
             {
-                new TestAbstractFactory()
+                new TestAbstractFactory(),
+                new TestSingleton()
             };
 
             foreach(var test in testsPatterns)
