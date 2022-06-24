@@ -1,8 +1,0 @@
-Пример реализации паттерна Посетитель.
-
-Program - main, запуск программы
-IVisitor - интерфейс посетителя.
-ExcelVisitor и SqlVisitor - классы, наследующие посетителя.
-IPerson - интерфейс Element'ов, принимающих посетителей
-Student и Teacher - наследники IPerson
-Database - ObjectStructure, содержащий элементы(список пользователей)
