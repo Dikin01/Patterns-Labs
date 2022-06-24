@@ -17,15 +17,15 @@ namespace ExamplesPatterns.AbstractFactory.Tables
         public override void PrintInfo()
         {
             Console.WriteLine($"I'm MS SQL Server table," +
-                $" {_tableName}," +
+                $" {tableName}," +
                 $" and my owner is {Owner}" +
                 $"\nMy columns:");
-            foreach (string column in _columnNames)
+            foreach (string column in columnNames)
             {
                 Console.Write(column + " / ");
             }
             Console.WriteLine();
-            Console.WriteLine($"Number records - {_numberRecords}");
+            Console.WriteLine($"Number records - {numberRecords}");
         }
     }
 }

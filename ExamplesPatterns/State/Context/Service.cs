@@ -1,65 +1,75 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace State
+using State.ContextState;
+
+namespace State.Context
 {
-  internal class Service
-  {
-    // приложение (Context) хранит в себе текущее состояние 
-    public State state { get; set; }
-    // А также сохраняет информацию, новый ли это пользователь, которое изменится при смене состояния
-    public bool isNewUser; 
-
-    // Конструктор по умолчанию содержит в себе информацию: 
-    // Состояние подписки - без подписки
-    // Пользователь новый
-    public Service()
+    public class Service
     {
-      state = new WithoutSubscriptionState();
-      isNewUser = true;
-    }
+        // Приложение (Context) хранит в себе текущее состояние 
+        public AbstractState state { get; set; }
 
-    // Другой конструктор предусматривает, что состояние может быть отличным от "Без подписки"
-    // с начала пользования приложением
-    public Service(State _state){
-      state = _state;
-      isNewUser = true;
-    }
+        // А также сохраняет информацию, новый ли это пользователь, которое изменится при смене состояния
+        public bool isNewUser;
 
-    // Методы изменения состояния подписки
-    // Получить пробный период, причем получить его могут только новые пользователи
-    public void GetTrialPeriod(){
-      if(isNewUser){
-        state.GetTrialPeriod(this);
-        Console.WriteLine("Пробная версия активирована!\n");
-      }
-      else{
-        Console.WriteLine("Вы уже использовали пробную версию.\n");
-      }
-    }
+        // Конструктор по умолчанию содержит в себе информацию: 
+        // Состояние подписки - без подписки
+        // Пользователь новый
+        public Service()
+        {
+            state = new WithoutSubscriptionState();
+            isNewUser = true;
+        }
 
-    public void BuySubscription(){
-      state.BuySubscription(this);
-      Console.WriteLine("Подписка куплена!\n");
-    }
+        // Другой конструктор предусматривает, что состояние может быть отличным от "Без подписки"
+        // с начала пользования приложением
+        public Service(AbstractState _state)
+        {
+            state = _state;
+            isNewUser = true;
+        }
 
-    public void Unsubscribe(){
-      state.Unsubscribe(this);
-      Console.WriteLine("Подписка отменена!\n");
-    }
+        // Методы изменения состояния подписки
+        // Получить пробный период, причем получить его могут только новые пользователи
+        public void GetTrialPeriod()
+        {
+            if (isNewUser)
+            {
+                state.GetTrialPeriod(this);
+                Console.WriteLine("Пробная версия активирована!\n");
+            }
+            else
+            {
+                Console.WriteLine("Вы уже использовали пробную версию.\n");
+            }
+        }
 
-    // Далее методы вызова методов текущего состояния
-    public void WatchFilm(){
-      state.WatchFilm();
+        public void BuySubscription()
+        {
+            state.BuySubscription(this);
+            Console.WriteLine("Подписка куплена!\n");
+        }
+
+        public void Unsubscribe()
+        {
+            state.Unsubscribe(this);
+            Console.WriteLine("Подписка отменена!\n");
+        }
+
+        // Далее методы вызова методов текущего состояния
+        public void WatchFilm()
+        {
+            state.WatchFilm();
+        }
+
+        public void OrderFood()
+        {
+            state.OrderFood();
+        }
+
+        public void DownlandMusic()
+        {
+            state.DownlandMusic();
+        }
     }
-    public void OrderFood(){
-      state.OrderFood();
-    }
-    public void DownlandMusic(){
-      state.DownlandMusic();
-    }
-  }
 }
