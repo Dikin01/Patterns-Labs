@@ -15,29 +15,32 @@ namespace ExamplesPatterns.AbstractFactory.Databases
 
         public override List<AbstractQuery> GetQueries()
         {
-            List<AbstractQuery> queries = new List<AbstractQuery>();
-            
-            // В этой реализации будем добавлять функции типа SqlServerQuery
-            queries.Add(new SqlServerQuery("Get animals",
-                "SELECT * FROM Animals"));
-            queries.Add(new SqlServerQuery("Get animal with Id = 25",
+            var queries = new List<AbstractQuery>
+            {
+                // В этой реализации будем получать функции типа SqlServerQuery
+                new SqlServerQuery("Get animals",
+                "SELECT * FROM Animals"),
+
+                new SqlServerQuery("Get animal with Id = 25",
                 "SELECT * FROM Animals" +
-                "WHERE Id = 1"));
-            queries.Add(new SqlServerQuery(@"Get bunnies",
+                "WHERE Id = 1"),
+
+                new SqlServerQuery(@"Get bunnies",
                 "SELECT * FROM Animals" +
-                "WHERE type = 'bunny'"));
+                "WHERE type = 'bunny'")
+            };
 
             return queries;
         }
 
         public override List<AbstractTable> GetTables()
         {
-            List<AbstractTable> tables = new List<AbstractTable>();
-
-            // Также добавим таблицу типа SqlServerTable
-            tables.Add(new SqlServerTable("Animals",
+            var tables = new List<AbstractTable>
+            {
+                // Также получим таблицу типа SqlServerTable
+                new SqlServerTable("Animals",
                 new string[] { "Id", "Name", "Type" }, 8, "Ivan")
-            );
+            };
 
             return tables;
         }

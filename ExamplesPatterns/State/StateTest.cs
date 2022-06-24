@@ -7,7 +7,7 @@ namespace ExamplesPatterns.State
         public void Test()
         {
             // Создаем новое приложение, по умолчанию создастся новый пользователь с неактивной подпиской
-            Service service = new Service();
+            var service = new Service();
 
             // Попробуем использовать музыкальный сервис и видеохостинг без подписки
             service.DownlandMusic();

@@ -14,14 +14,16 @@ namespace ExamplesPatterns.AbstractFactory.Databases
         // Реализуем метод для получения списка хранимых функций
         public override List<AbstractQuery> GetQueries()
         {
-            List<AbstractQuery> queries = new List<AbstractQuery>();
+            var queries = new List<AbstractQuery>
+            {
+                // Получим функции типа SqliteQuery
+                new SqliteQuery("Get users",
+                "SELECT * FROM Users"),
 
-            // Добавим фэйковые функции типа SqliteQuery
-            queries.Add(new SqliteQuery("Get users",
-                "SELECT * FROM Users"));
-            queries.Add(new SqliteQuery("Delete user with Id = 1",
+                new SqliteQuery("Delete user with Id = 1",
                 "DELETE FROM Users" +
-                "WHERE Id = 1"));
+                "WHERE Id = 1")
+            };
 
             return queries;
         }
@@ -29,16 +31,15 @@ namespace ExamplesPatterns.AbstractFactory.Databases
         // Реализуем метод для получения списка таблиц
         public override List<AbstractTable> GetTables()
         {
-            List<AbstractTable> tables = new List<AbstractTable>();
+            var tables = new List<AbstractTable>
+            {
+                // Получим таблицы типа SqliteTable
+                new SqliteTable("Users",
+                new string[] { "Id", "First name", "Last name" }, 15),
 
-            // Добавим фэйковые таблицы типа SqliteTable
-            tables.Add(new SqliteTable("Users",
-                new string[] { "Id", "First name", "Last name"}, 15)
-            );
-
-            tables.Add(new SqliteTable("Countries",
+                new SqliteTable("Countries",
                 new string[] { "Id", "Name", "Сapital" }, 60)
-            );
+            };
 
             return tables;
         }
