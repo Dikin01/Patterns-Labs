@@ -1,0 +1,48 @@
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.exe
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.deps.json
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.json
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.dev.json
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.dll
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.pdb
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.AssemblyInfo.cs
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.dll
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ref\ExamplesPatterns.dll
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.pdb
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.genruntimeconfig.cache
+C:\Users\User\Desktop\Patterns-Labs\ExamplesPatterns\obj\Debug\net5.0\refint\ExamplesPatterns.dll
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.exe
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.deps.json
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.json
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.dev.json
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.dll
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.pdb
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.AssemblyReference.cache
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.AssemblyInfoInputs.cache
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.AssemblyInfo.cs
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.CoreCompileInputs.cache
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.dll
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\refint\ExamplesPatterns.dll
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.pdb
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.genruntimeconfig.cache
+C:\Users\kondi\Desktop\Паттерны Методичка\ExamplesPatterns\obj\Debug\net5.0\ref\ExamplesPatterns.dll
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.AssemblyReference.cache
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.AssemblyInfoInputs.cache
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.AssemblyInfo.cs
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.csproj.CoreCompileInputs.cache
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.dll
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ref\ExamplesPatterns.dll
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.pdb
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.exe
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.deps.json
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.json
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.runtimeconfig.dev.json
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.dll
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ref\ExamplesPatterns.dll
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\bin\Debug\net5.0\ExamplesPatterns.pdb
+C:\Work\Study\Patterns-Labs-main\ExamplesPatterns\obj\Debug\net5.0\ExamplesPatterns.genruntimeconfig.cache

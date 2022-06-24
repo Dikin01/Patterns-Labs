@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AAeqAeGPSpCvpNyTgiQSl6VwDsoPRJvsKp8Vz2gBr5IQNZQzafnDt711irogK+o796ODu/fihyBf7/GZfzBB1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Study\\Patterns-Labs-main\\ExamplesPatterns\\ExamplesPatterns.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Work\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
