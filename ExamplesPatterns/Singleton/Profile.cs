@@ -12,7 +12,7 @@ namespace ExamplesPatterns.Singleton
         // Используем класс Lazy<T> для отложенной инициализации,
         // для потокобезопасности добавим модификатор readonly
         private static readonly Lazy<Profile> _instance =
-            new Lazy<Profile>(() => new Profile());
+            new(() => new Profile());
 
         private Profile() 
         {

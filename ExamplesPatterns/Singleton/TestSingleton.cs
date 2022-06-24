@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace ExamplesPatterns.Singleton
 {
@@ -14,7 +11,7 @@ namespace ExamplesPatterns.Singleton
             // Одиночка проинициализируется при первом вызове Instance
             var userProfile = Profile.Instance;
 
-            // Изменим имя профиле и добавим настроек
+            // Изменим имя в профиле и добавим настроек
             userProfile.Name = "Ivan";
             userProfile.Settings.Add("theme", "dark");
             userProfile.Settings.Add("notifications", "false");
@@ -29,7 +26,7 @@ namespace ExamplesPatterns.Singleton
             // А десериализацию можно реализовать в конструкторе Одиночки
         }
 
-        private void UseProfile(Profile profile)
+        private static void UseProfile(Profile profile)
         {
             Console.WriteLine($"Profile name: {profile.Name}");
 
