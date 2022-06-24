@@ -9,16 +9,16 @@ namespace State.ContextState
         // Методы изменения состояния
         public override void BuySubscription(Service service)
         {
-            service.state = new SubscriptionState();
+            service.State = new SubscriptionState();
         }
 
         public override void Unsubscribe(Service service) { }
 
         public override void GetTrialPeriod(Service service)
         {
-            if (service.isNewUser)
+            if (service.IsNewUser)
             {
-                service.state = new TrialState();
+                service.State = new TrialState();
             }
             else
             {

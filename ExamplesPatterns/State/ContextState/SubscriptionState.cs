@@ -18,8 +18,8 @@ namespace State.ContextState
         public override void Unsubscribe(Service service)
         {
             Console.WriteLine("Подписка отменена!\n");
-            service.state = new WithoutSubscriptionState();
-            service.isNewUser = false;
+            service.State = new WithoutSubscriptionState();
+            service.IsNewUser = false;
         }
 
         // Наследуемые методы использования сервисов приложения

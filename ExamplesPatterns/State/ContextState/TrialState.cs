@@ -7,17 +7,17 @@ namespace State.ContextState
     public class TrialState : AbstractState
     {
         // Лимит использования сервисов
-        private const int _limitNumberUses = 3;
+        private const int limitNumberUses = 3;
 
         // Cчетчик, сколько раз были использованы сервисы приложения
         // При превышении лимита приложение отказывает в предоставлении сервисов
-        private int _numberUses = 0;
+        private int numberUses = 0;
 
         // Наследуемые методы изменения состояния
         public override void BuySubscription(Service service)
         {
             Console.WriteLine("Подписка оформлена!");
-            service.state = new SubscriptionState();
+            service.State = new SubscriptionState();
         }
 
         public override void GetTrialPeriod(Service service)
@@ -27,19 +27,19 @@ namespace State.ContextState
 
         public override void Unsubscribe(Service service)
         {
-            service.state = new WithoutSubscriptionState();
-            service.isNewUser = false;
+            service.State = new WithoutSubscriptionState();
+            service.IsNewUser = false;
         }
 
         // Наследуемые методы использования сервисов приложения
         public override void DownlandMusic()
         {
-            if (_numberUses < _limitNumberUses)
+            if (numberUses < limitNumberUses)
             {
                 Console.WriteLine("Музыка скачивается...");
                 Console.WriteLine("Завершено!");
                 Console.WriteLine("Скачанная музыка станет недоступна по завершению пробного периода.\n");
-                _numberUses ++;
+                numberUses ++;
             }
             else
             {
@@ -49,10 +49,10 @@ namespace State.ContextState
 
         public override void OrderFood()
         {
-            if (_numberUses < _limitNumberUses)
+            if (numberUses < limitNumberUses)
             {
                 Console.WriteLine("Курьер доставит заказ в течение 15-ти минут.\n");
-                _numberUses++;
+                numberUses++;
             }
             else
             {
@@ -62,10 +62,10 @@ namespace State.ContextState
 
         public override void WatchFilm()
         {
-            if (_numberUses < _limitNumberUses)
+            if (numberUses < limitNumberUses)
             {
                 Console.WriteLine("Наслаждайтесь просмотром!\n");
-                _numberUses++;
+                numberUses++;
             }
             else
             {

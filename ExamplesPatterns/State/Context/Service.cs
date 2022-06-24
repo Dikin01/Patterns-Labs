@@ -7,35 +7,35 @@ namespace State.Context
     public class Service
     {
         // Приложение (Context) хранит в себе текущее состояние 
-        public AbstractState state { get; set; }
+        public AbstractState State { get; set; }
 
         // А также сохраняет информацию, новый ли это пользователь, которое изменится при смене состояния
-        public bool isNewUser;
+        public bool IsNewUser { get; set; }
 
         // Конструктор по умолчанию содержит в себе информацию: 
         // Состояние подписки - без подписки
         // Пользователь новый
         public Service()
         {
-            state = new WithoutSubscriptionState();
-            isNewUser = true;
+            State = new WithoutSubscriptionState();
+            IsNewUser = true;
         }
 
         // Другой конструктор предусматривает, что состояние может быть отличным от "Без подписки"
         // с начала пользования приложением
         public Service(AbstractState _state)
         {
-            state = _state;
-            isNewUser = true;
+            State = _state;
+            IsNewUser = true;
         }
 
         // Методы изменения состояния подписки
         // Получить пробный период, причем получить его могут только новые пользователи
         public void GetTrialPeriod()
         {
-            if (isNewUser)
+            if (IsNewUser)
             {
-                state.GetTrialPeriod(this);
+                State.GetTrialPeriod(this);
                 Console.WriteLine("Пробная версия активирована!\n");
             }
             else
@@ -46,30 +46,30 @@ namespace State.Context
 
         public void BuySubscription()
         {
-            state.BuySubscription(this);
+            State.BuySubscription(this);
             Console.WriteLine("Подписка куплена!\n");
         }
 
         public void Unsubscribe()
         {
-            state.Unsubscribe(this);
+            State.Unsubscribe(this);
             Console.WriteLine("Подписка отменена!\n");
         }
 
         // Далее методы вызова методов текущего состояния
         public void WatchFilm()
         {
-            state.WatchFilm();
+            State.WatchFilm();
         }
 
         public void OrderFood()
         {
-            state.OrderFood();
+            State.OrderFood();
         }
 
         public void DownlandMusic()
         {
-            state.DownlandMusic();
+            State.DownlandMusic();
         }
     }
 }
