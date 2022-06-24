@@ -1,7 +1,8 @@
-﻿using ExamplesPatterns.AbstractFactory.Queries;
-using ExamplesPatterns.AbstractFactory.Tables;
-using System;
+﻿using System;
 using System.Collections.Generic;
+
+using ExamplesPatterns.AbstractFactory.Queries;
+using ExamplesPatterns.AbstractFactory.Tables;
 
 namespace ExamplesPatterns.AbstractFactory.Databases
 {

@@ -1,4 +1,4 @@
-﻿namespace Visitor{
+﻿/*namespace Visitor{
   public static class Program{
     static void Main()
     {
@@ -19,4 +19,4 @@
       database.Accept(new SqlVisitor());
     }
   }
-}
+}*/

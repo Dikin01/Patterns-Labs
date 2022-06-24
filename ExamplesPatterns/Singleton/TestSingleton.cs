@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace ExamplesPatterns.Singleton
 {
@@ -29,7 +26,7 @@ namespace ExamplesPatterns.Singleton
             // А десериализацию можно реализовать в конструкторе Одиночки
         }
 
-        private void UseProfile(Profile profile)
+        private static void UseProfile(Profile profile)
         {
             Console.WriteLine($"Profile name: {profile.Name}");
 
