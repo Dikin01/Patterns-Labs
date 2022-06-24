@@ -14,7 +14,7 @@ namespace ExamplesPatterns.Singleton
             // Одиночка проинициализируется при первом вызове Instance
             var userProfile = Profile.Instance;
 
-            // Изменим имя профиле и добавим настроек
+            // Изменим имя в профиле и добавим настроек
             userProfile.Name = "Ivan";
             userProfile.Settings.Add("theme", "dark");
             userProfile.Settings.Add("notifications", "false");
